@@ -8,8 +8,8 @@ import (
 )
 
 func FizzBuzz(from, to int) string {
-	fizz := "Fizz"
-	buzz := "Buzz"
+	fizz := "fizz"
+	buzz := "buzz"
 
 	for ; from <= to; from++ {
 		if from%15 == 0 {
